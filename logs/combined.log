@@ -1,0 +1,173 @@
+[2025-07-02 21:39:22] [33mwarning[39m: [33mLogin failed: Incorrect password - nico@test.com[39m
+[2025-07-02 21:40:02] [34minfo[39m: [34mUser logged in: nico@test.com[39m
+[2025-07-02 21:40:06] [34minfo[39m: [34mCurrent session validated: nico@test.com[39m
+[2025-07-02 21:40:09] [34minfo[39m: [34mUser logged out (protected)[39m
+[2025-07-02 21:40:09] [34minfo[39m: [34mLogout attempted with no active session[39m
+[2025-07-02 21:40:13] [33mwarning[39m: [33mCurrent failed: No token provided[39m
+[2025-07-02 21:53:22] [34minfo[39m: [34mRetrieved all users[39m
+[2025-07-02 21:54:02] [34minfo[39m: [34mRetrieved user: Marcus.Ebert12@yahoo.com[39m
+[2025-07-02 21:54:07] [31merror[39m: [31mError retrieving user: Cast to ObjectId failed for value "68443c176229f8b4242a18b01" (type string) at path "_id" for model "Users"[39m
+[2025-07-02 21:54:11] [34minfo[39m: [34mRetrieved user: Marcus.Ebert12@yahoo.com[39m
+[2025-07-02 21:54:39] [34minfo[39m: [34mUser updated: 68443c176229f8b4242a18b0[39m
+[2025-07-02 21:54:52] [34minfo[39m: [34mRetrieved user: string[39m
+[2025-07-02 21:55:06] [34minfo[39m: [34mUser deleted: 68443c176229f8b4242a18b0[39m
+[2025-07-02 21:55:14] [33mwarning[39m: [33mUser not found: 68443c176229f8b4242a18b0[39m
+[2025-07-02 22:50:00] [33mwarning[39m: [33mCurrent failed: No token provided[39m
+[2025-07-02 22:50:02] [34minfo[39m: [34mUser logged in: nico@test.com[39m
+[2025-07-02 22:50:04] [34minfo[39m: [34mCurrent session validated: nico@test.com[39m
+[2025-07-02 22:50:06] [34minfo[39m: [34mUser logged out (protected)[39m
+[2025-07-02 22:50:08] [34minfo[39m: [34mLogout attempted with no active session[39m
+[2025-07-02 23:13:49] [34minfo[39m: [34mRetrieved all adoptions[39m
+[2025-07-02 23:13:49] [31merror[39m: [31mError in createAdoption: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Users"[39m
+[2025-07-02 23:13:49] [34minfo[39m: [34mRetrieved all adoptions[39m
+[2025-07-02 23:13:49] [31merror[39m: [31mError in createAdoption: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Users"[39m
+[2025-07-02 23:13:49] [33mwarning[39m: [33mUser not found: 6865e75d2d0dd3ee46745fa9[39m
+[2025-07-02 23:13:49] [31merror[39m: [31mError in createAdoption: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Users"[39m
+[2025-07-02 23:13:49] [31merror[39m: [31mError in createAdoption: Cast to ObjectId failed for value "invalid_id" (type string) at path "_id" for model "Users"[39m
+[2025-07-02 23:13:49] [31merror[39m: [31mError retrieving adoption: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Adoptions"[39m
+[2025-07-02 23:13:49] [33mwarning[39m: [33mAdoption not found: 6865e75d2d0dd3ee46745fac[39m
+[2025-07-02 23:13:49] [31merror[39m: [31mError retrieving adoption: Cast to ObjectId failed for value "123_invalid" (type string) at path "_id" for model "Adoptions"[39m
+[2025-07-02 23:14:37] [34minfo[39m: [34mRetrieved all adoptions[39m
+[2025-07-02 23:14:37] [31merror[39m: [31mError in createAdoption: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Users"[39m
+[2025-07-02 23:14:37] [34minfo[39m: [34mRetrieved all adoptions[39m
+[2025-07-02 23:14:37] [31merror[39m: [31mError in createAdoption: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Users"[39m
+[2025-07-02 23:14:37] [33mwarning[39m: [33mUser not found: 6865e78dae0f93cfbc1fca8b[39m
+[2025-07-02 23:14:37] [31merror[39m: [31mError retrieving adoption: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Adoptions"[39m
+[2025-07-02 23:14:37] [31merror[39m: [31mError retrieving adoption: Cast to ObjectId failed for value "invalid_id" (type string) at path "_id" for model "Adoptions"[39m
+[2025-07-02 23:17:44] [34minfo[39m: [34mRetrieved all adoptions[39m
+[2025-07-02 23:17:44] [34minfo[39m: [34mRetrieved all adoptions[39m
+[2025-07-02 23:17:44] [34minfo[39m: [34mPet 6865e847da74f639558d2c62 adopted by user 6865e847da74f639558d2c61[39m
+[2025-07-02 23:17:44] [33mwarning[39m: [33mUser not found: 6865e848da74f639558d2c70[39m
+[2025-07-02 23:17:44] [33mwarning[39m: [33mPet not found: 6865e848da74f639558d2c72[39m
+[2025-07-02 23:17:44] [31merror[39m: [31mError in createAdoption: Cast to ObjectId failed for value "invalid_id" (type string) at path "_id" for model "Users"[39m
+[2025-07-02 23:17:44] [31merror[39m: [31mError retrieving adoption: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Adoptions"[39m
+[2025-07-02 23:17:44] [33mwarning[39m: [33mAdoption not found: 6865e848da74f639558d2c75[39m
+[2025-07-02 23:17:44] [31merror[39m: [31mError retrieving adoption: Cast to ObjectId failed for value "invalid_id" (type string) at path "_id" for model "Adoptions"[39m
+[2025-07-02 23:19:42] [34minfo[39m: [34mRetrieved all adoptions[39m
+[2025-07-02 23:19:42] [34minfo[39m: [34mRetrieved all adoptions[39m
+[2025-07-02 23:19:42] [34minfo[39m: [34mPet 6865e8bdbe1bb15c4ded5bd7 adopted by user 6865e8bdbe1bb15c4ded5bd6[39m
+[2025-07-02 23:19:42] [33mwarning[39m: [33mUser not found: 6865e8bebe1bb15c4ded5be5[39m
+[2025-07-02 23:19:42] [33mwarning[39m: [33mPet not found: 6865e8bebe1bb15c4ded5be7[39m
+[2025-07-02 23:19:42] [31merror[39m: [31mError in createAdoption: Cast to ObjectId failed for value "invalid_id" (type string) at path "_id" for model "Users"[39m
+[2025-07-02 23:19:42] [34minfo[39m: [34mRetrieved adoption: 6865e8bebe1bb15c4ded5beb[39m
+[2025-07-02 23:19:42] [33mwarning[39m: [33mAdoption not found: 6865e8bebe1bb15c4ded5bed[39m
+[2025-07-02 23:19:42] [31merror[39m: [31mError retrieving adoption: Cast to ObjectId failed for value "invalid_id" (type string) at path "_id" for model "Adoptions"[39m
+[2025-07-02 23:20:29] [34minfo[39m: [34mRetrieved all adoptions[39m
+[2025-07-02 23:20:29] [34minfo[39m: [34mRetrieved all adoptions[39m
+[2025-07-02 23:20:29] [34minfo[39m: [34mPet 6865e8ec6be8795560b67527 adopted by user 6865e8ec6be8795560b67526[39m
+[2025-07-02 23:20:29] [33mwarning[39m: [33mUser not found: 6865e8ed6be8795560b67535[39m
+[2025-07-02 23:20:29] [33mwarning[39m: [33mPet not found: 6865e8ed6be8795560b67537[39m
+[2025-07-02 23:20:29] [31merror[39m: [31mError in createAdoption: Cast to ObjectId failed for value "invalid_id" (type string) at path "_id" for model "Users"[39m
+[2025-07-02 23:20:29] [31merror[39m: [31mError retrieving adoption: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Adoptions"[39m
+[2025-07-02 23:20:29] [33mwarning[39m: [33mAdoption not found: 6865e8ed6be8795560b6753a[39m
+[2025-07-02 23:20:29] [31merror[39m: [31mError retrieving adoption: Cast to ObjectId failed for value "invalid_id" (type string) at path "_id" for model "Adoptions"[39m
+[2025-07-02 23:20:40] [34minfo[39m: [34mRetrieved all adoptions[39m
+[2025-07-02 23:20:40] [34minfo[39m: [34mRetrieved all adoptions[39m
+[2025-07-02 23:20:40] [34minfo[39m: [34mPet 6865e8f7528e724156ecb318 adopted by user 6865e8f7528e724156ecb317[39m
+[2025-07-02 23:20:40] [33mwarning[39m: [33mUser not found: 6865e8f8528e724156ecb326[39m
+[2025-07-02 23:20:40] [33mwarning[39m: [33mPet not found: 6865e8f8528e724156ecb328[39m
+[2025-07-02 23:20:40] [31merror[39m: [31mError in createAdoption: Cast to ObjectId failed for value "invalid_id" (type string) at path "_id" for model "Users"[39m
+[2025-07-02 23:20:40] [34minfo[39m: [34mRetrieved adoption: 6865e8f8528e724156ecb32c[39m
+[2025-07-02 23:20:40] [33mwarning[39m: [33mAdoption not found: 6865e8f8528e724156ecb32e[39m
+[2025-07-02 23:20:40] [31merror[39m: [31mError retrieving adoption: Cast to ObjectId failed for value "invalid_id" (type string) at path "_id" for model "Adoptions"[39m
+[2025-07-02 23:22:27] [34minfo[39m: [34mRetrieved all adoptions[39m
+[2025-07-02 23:22:28] [34minfo[39m: [34mRetrieved all adoptions[39m
+[2025-07-02 23:22:28] [34minfo[39m: [34mPet 6865e963829420e41e9a75a7 adopted by user 6865e963829420e41e9a75a6[39m
+[2025-07-02 23:22:28] [33mwarning[39m: [33mUser not found: 6865e964829420e41e9a75b5[39m
+[2025-07-02 23:22:28] [33mwarning[39m: [33mPet not found: 6865e964829420e41e9a75b7[39m
+[2025-07-02 23:22:28] [31merror[39m: [31mError in createAdoption: Cast to ObjectId failed for value "invalid_id" (type string) at path "_id" for model "Users"[39m
+[2025-07-02 23:22:28] [34minfo[39m: [34mRetrieved adoption: 6865e964829420e41e9a75bb[39m
+[2025-07-02 23:22:28] [33mwarning[39m: [33mAdoption not found: 6865e964829420e41e9a75bd[39m
+[2025-07-02 23:22:28] [31merror[39m: [31mError retrieving adoption: Cast to ObjectId failed for value "invalid_id" (type string) at path "_id" for model "Adoptions"[39m
+[2025-07-02 23:23:03] [34minfo[39m: [34mRetrieved all adoptions[39m
+[2025-07-02 23:23:03] [34minfo[39m: [34mRetrieved all adoptions[39m
+[2025-07-02 23:23:03] [34minfo[39m: [34mPet 6865e987613e688259e38bcf adopted by user 6865e987613e688259e38bce[39m
+[2025-07-02 23:23:03] [33mwarning[39m: [33mUser not found: 6865e987613e688259e38bdd[39m
+[2025-07-02 23:23:03] [33mwarning[39m: [33mPet not found: 6865e987613e688259e38bdf[39m
+[2025-07-02 23:23:03] [31merror[39m: [31mError in createAdoption: Cast to ObjectId failed for value "invalid_id" (type string) at path "_id" for model "Users"[39m
+[2025-07-02 23:23:03] [34minfo[39m: [34mRetrieved adoption: 6865e987613e688259e38be3[39m
+[2025-07-02 23:23:03] [33mwarning[39m: [33mAdoption not found: 6865e987613e688259e38be5[39m
+[2025-07-02 23:23:03] [31merror[39m: [31mError retrieving adoption: Cast to ObjectId failed for value "invalid_id" (type string) at path "_id" for model "Adoptions"[39m
+[2025-07-02 23:24:11] [34minfo[39m: [34mRetrieved all adoptions[39m
+[2025-07-02 23:24:11] [34minfo[39m: [34mRetrieved all adoptions[39m
+[2025-07-02 23:24:11] [34minfo[39m: [34mPet 6865e9cb0ffc59457ef207a0 adopted by user 6865e9cb0ffc59457ef2079f[39m
+[2025-07-02 23:24:11] [33mwarning[39m: [33mUser not found: 6865e9cb0ffc59457ef207ae[39m
+[2025-07-02 23:24:11] [33mwarning[39m: [33mPet not found: 6865e9cb0ffc59457ef207b0[39m
+[2025-07-02 23:24:11] [31merror[39m: [31mError in createAdoption: Cast to ObjectId failed for value "invalid_id" (type string) at path "_id" for model "Users"[39m
+[2025-07-02 23:24:11] [34minfo[39m: [34mRetrieved adoption: 6865e9cb0ffc59457ef207b4[39m
+[2025-07-02 23:24:11] [33mwarning[39m: [33mAdoption not found: 6865e9cb0ffc59457ef207b6[39m
+[2025-07-02 23:24:11] [31merror[39m: [31mError retrieving adoption: Cast to ObjectId failed for value "invalid_id" (type string) at path "_id" for model "Adoptions"[39m
+[2025-07-02 23:24:50] [34minfo[39m: [34mRetrieved all adoptions[39m
+[2025-07-02 23:24:50] [34minfo[39m: [34mRetrieved all adoptions[39m
+[2025-07-02 23:24:50] [34minfo[39m: [34mPet 6865e9f2c8980ffe523f5bc6 adopted by user 6865e9f2c8980ffe523f5bc5[39m
+[2025-07-02 23:24:50] [33mwarning[39m: [33mUser not found: 6865e9f2c8980ffe523f5bd4[39m
+[2025-07-02 23:24:50] [33mwarning[39m: [33mUser not found: 6865e9f2c8980ffe523f5bd6[39m
+[2025-07-02 23:24:50] [33mwarning[39m: [33mPet not found: 6865e9f2c8980ffe523f5bd8[39m
+[2025-07-02 23:24:50] [31merror[39m: [31mError in createAdoption: Cast to ObjectId failed for value "invalid_id" (type string) at path "_id" for model "Users"[39m
+[2025-07-02 23:24:50] [34minfo[39m: [34mRetrieved adoption: 6865e9f2c8980ffe523f5bdc[39m
+[2025-07-02 23:24:50] [33mwarning[39m: [33mAdoption not found: 6865e9f2c8980ffe523f5bde[39m
+[2025-07-02 23:24:50] [31merror[39m: [31mError retrieving adoption: Cast to ObjectId failed for value "invalid_id" (type string) at path "_id" for model "Adoptions"[39m
+[2025-07-02 23:25:05] [34minfo[39m: [34mRetrieved all adoptions[39m
+[2025-07-02 23:25:05] [34minfo[39m: [34mRetrieved all adoptions[39m
+[2025-07-02 23:25:05] [34minfo[39m: [34mPet 6865ea00feabb5bb4657d7d3 adopted by user 6865ea00feabb5bb4657d7d2[39m
+[2025-07-02 23:25:05] [33mwarning[39m: [33mUser not found: 6865ea01feabb5bb4657d7e1[39m
+[2025-07-02 23:25:05] [33mwarning[39m: [33mPet not found: 6865ea01feabb5bb4657d7e3[39m
+[2025-07-02 23:25:05] [31merror[39m: [31mError in createAdoption: Cast to ObjectId failed for value "invalid_id" (type string) at path "_id" for model "Users"[39m
+[2025-07-02 23:25:05] [34minfo[39m: [34mRetrieved adoption: 6865ea01feabb5bb4657d7e7[39m
+[2025-07-02 23:25:05] [33mwarning[39m: [33mAdoption not found: 6865ea01feabb5bb4657d7e9[39m
+[2025-07-02 23:25:05] [31merror[39m: [31mError retrieving adoption: Cast to ObjectId failed for value "invalid_id" (type string) at path "_id" for model "Adoptions"[39m
+[2025-07-02 23:25:14] [34minfo[39m: [34mRetrieved all adoptions[39m
+[2025-07-02 23:25:14] [34minfo[39m: [34mRetrieved all adoptions[39m
+[2025-07-02 23:25:14] [34minfo[39m: [34mPet 6865ea0ab0345b1a7edbeb20 adopted by user 6865ea0ab0345b1a7edbeb1f[39m
+[2025-07-02 23:25:14] [33mwarning[39m: [33mUser not found: 6865ea0ab0345b1a7edbeb2e[39m
+[2025-07-02 23:25:14] [33mwarning[39m: [33mUser not found: 6865ea0ab0345b1a7edbeb30[39m
+[2025-07-02 23:25:14] [33mwarning[39m: [33mPet not found: 6865ea0ab0345b1a7edbeb32[39m
+[2025-07-02 23:25:14] [31merror[39m: [31mError in createAdoption: Cast to ObjectId failed for value "invalid_id" (type string) at path "_id" for model "Users"[39m
+[2025-07-02 23:25:14] [34minfo[39m: [34mRetrieved adoption: 6865ea0ab0345b1a7edbeb36[39m
+[2025-07-02 23:25:14] [33mwarning[39m: [33mAdoption not found: 6865ea0ab0345b1a7edbeb38[39m
+[2025-07-02 23:25:14] [31merror[39m: [31mError retrieving adoption: Cast to ObjectId failed for value "invalid_id" (type string) at path "_id" for model "Adoptions"[39m
+[2025-07-02 23:28:06] [34minfo[39m: [34mRetrieved all adoptions[39m
+[2025-07-02 23:28:06] [34minfo[39m: [34mRetrieved all adoptions[39m
+[2025-07-02 23:28:06] [34minfo[39m: [34mPet 6865eab6f2b59d65cf37515a adopted by user 6865eab6f2b59d65cf375159[39m
+[2025-07-02 23:28:06] [33mwarning[39m: [33mUser not found: 6865eab6f2b59d65cf375168[39m
+[2025-07-02 23:28:06] [33mwarning[39m: [33mUser not found: 6865eab6f2b59d65cf37516a[39m
+[2025-07-02 23:28:06] [33mwarning[39m: [33mPet not found: 6865eab6f2b59d65cf37516c[39m
+[2025-07-02 23:28:06] [31merror[39m: [31mError in createAdoption: Cast to ObjectId failed for value "invalid_id" (type string) at path "_id" for model "Users"[39m
+[2025-07-02 23:28:06] [34minfo[39m: [34mRetrieved adoption: 6865eab6f2b59d65cf375170[39m
+[2025-07-02 23:28:06] [33mwarning[39m: [33mAdoption not found: 6865eab6f2b59d65cf375172[39m
+[2025-07-02 23:28:06] [31merror[39m: [31mError retrieving adoption: Cast to ObjectId failed for value "invalid_id" (type string) at path "_id" for model "Adoptions"[39m
+[2025-07-02 23:32:52] [34minfo[39m: [34mRetrieved all adoptions[39m
+[2025-07-02 23:32:52] [34minfo[39m: [34mRetrieved all adoptions[39m
+[2025-07-02 23:32:52] [34minfo[39m: [34mPet 6865ebd4a1a43602c0f60e82 adopted by user 6865ebd4a1a43602c0f60e81[39m
+[2025-07-02 23:32:52] [33mwarning[39m: [33mUser not found: 6865ebd4a1a43602c0f60e90[39m
+[2025-07-02 23:32:52] [33mwarning[39m: [33mUser not found: 6865ebd4a1a43602c0f60e92[39m
+[2025-07-02 23:32:52] [33mwarning[39m: [33mPet not found: 6865ebd4a1a43602c0f60e94[39m
+[2025-07-02 23:32:52] [31merror[39m: [31mError in createAdoption: Cast to ObjectId failed for value "invalid_id" (type string) at path "_id" for model "Users"[39m
+[2025-07-02 23:32:52] [34minfo[39m: [34mRetrieved adoption: 6865ebd4a1a43602c0f60e98[39m
+[2025-07-02 23:32:52] [33mwarning[39m: [33mAdoption not found: 6865ebd4a1a43602c0f60e9a[39m
+[2025-07-02 23:32:52] [31merror[39m: [31mError retrieving adoption: Cast to ObjectId failed for value "invalid_id" (type string) at path "_id" for model "Adoptions"[39m
+[2025-07-02 23:33:12] [34minfo[39m: [34mRetrieved all adoptions[39m
+[2025-07-02 23:33:12] [34minfo[39m: [34mRetrieved all adoptions[39m
+[2025-07-02 23:33:12] [34minfo[39m: [34mPet 6865ebe703712cf4607ad7dc adopted by user 6865ebe703712cf4607ad7db[39m
+[2025-07-02 23:33:12] [33mwarning[39m: [33mUser not found: 6865ebe803712cf4607ad7ea[39m
+[2025-07-02 23:33:12] [33mwarning[39m: [33mUser not found: 6865ebe803712cf4607ad7ec[39m
+[2025-07-02 23:33:12] [33mwarning[39m: [33mPet not found: 6865ebe803712cf4607ad7ee[39m
+[2025-07-02 23:33:12] [31merror[39m: [31mError in createAdoption: Cast to ObjectId failed for value "invalid_id" (type string) at path "_id" for model "Users"[39m
+[2025-07-02 23:33:12] [34minfo[39m: [34mRetrieved adoption: 6865ebe803712cf4607ad7f2[39m
+[2025-07-02 23:33:12] [33mwarning[39m: [33mAdoption not found: 6865ebe803712cf4607ad7f4[39m
+[2025-07-02 23:33:12] [31merror[39m: [31mError retrieving adoption: Cast to ObjectId failed for value "invalid_id" (type string) at path "_id" for model "Adoptions"[39m
+[2025-07-02 23:33:27] [34minfo[39m: [34mLogout attempted with no active session[39m
+[2025-07-02 23:33:29] [33mwarning[39m: [33mLogin failed: User not found - nico@test.com[39m
+[2025-07-02 23:33:34] [34minfo[39m: [34mUser registered: nico@test.com[39m
+[2025-07-02 23:33:37] [33mwarning[39m: [33mRegister failed: User already exists - nico@test.com[39m
+[2025-07-02 23:33:42] [34minfo[39m: [34mUser logged in: nico@test.com[39m
+[2025-07-02 23:33:45] [34minfo[39m: [34mCurrent session validated: nico@test.com[39m
+[2025-07-02 23:33:49] [34minfo[39m: [34mUser logged out (protected)[39m
+[2025-07-02 23:33:52] [33mwarning[39m: [33mCurrent failed: No token provided[39m
+[2025-07-02 23:35:01] [34minfo[39m: [34mUser registered: nico1@test.com[39m
+[2025-07-02 23:35:39] [33mwarning[39m: [33mRegister failed: User already exists - nico1@test.com[39m
+[2025-07-02 23:35:45] [34minfo[39m: [34mUser logged in: nico1@test.com[39m
+[2025-07-02 23:35:48] [34minfo[39m: [34mCurrent session validated: nico1@test.com[39m
+[2025-07-02 23:35:51] [34minfo[39m: [34mUser logged out (protected)[39m
+[2025-07-02 23:35:54] [34minfo[39m: [34mLogout attempted with no active session[39m
+[2025-07-02 23:35:56] [33mwarning[39m: [33mCurrent failed: No token provided[39m
