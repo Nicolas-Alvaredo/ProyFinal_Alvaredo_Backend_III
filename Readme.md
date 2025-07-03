@@ -67,7 +67,13 @@ Cada log se imprime en consola (modo desarrollo) o en archivos (modo producción
 
 ### 🧪 2. Tests funcionales con Supertest + Chai
 
-Se desarrolló un archivo de test `adoption.test.js` para ejecutarse con el comando ```bash npm test``` y validar la API de adopciones usando:
+Se desarrolló un archivo de test `adoption.test.js` para ejecutarse con el comando
+
+```bash
+npm test
+```
+
+y validar la API de adopciones usando:
 
 - **MongoMemoryServer:** Base de datos en memoria para pruebas aisladas.
 
