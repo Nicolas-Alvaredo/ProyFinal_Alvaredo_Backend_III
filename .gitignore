@@ -1,3 +1,7 @@
 node_modules
 /test
 .env
+*.log
+logs/
+combined.log
+errors.log
