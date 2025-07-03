@@ -2,7 +2,7 @@
 
 ## 📌 Descripción del Proyecto
 
-Este es el proyecto final del curso **Backend III con Node.js** de Coderhouse. Se desarrollaron funcionalidades orientadas a generar y mockear datos para una aplicación de adopción de mascotas, integrando lógica de backend con conexión a base de datos MongoDB y tambien se aplico el uso de Winston para logs de errores, Supertest y Dockerhub.
+Este es el proyecto final del curso **Backend III con Node.js** de Coderhouse. Se desarrollaron funcionalidades orientadas a generar y mockear datos para una aplicación de adopción de mascotas, integrando lógica de backend con conexión a base de datos MongoDB y también se aplicó el uso de Winston para logs de errores, Supertest y Dockerhub.
 
 ## 🚀 Funcionalidades implementadas
 
@@ -28,13 +28,13 @@ Si no querés clonar el proyecto ni correrlo localmente, podés levantar la app 
 4. Eliminar imagen local (opcional, para simular entorno limpio)
 
     ```bash
-        docker rmi nicolasalvaredo/proy_final_alvaredo_backend_iii
+    docker rmi nicolasalvaredo/proy_final_alvaredo_backend_iii
     ```
 
 5. Hacer pull desde Docker Hub
 
     ```bash
-      docker pull nicolasalvaredo/proy_final_alvaredo_backend_iii
+    docker pull nicolasalvaredo/proy_final_alvaredo_backend_iii
     ```
 
 6. Ejecutar la imagen descargada con nombre proy_final_container
@@ -49,13 +49,13 @@ Si no querés clonar el proyecto ni correrlo localmente, podés levantar la app 
 7. Verificar que está corriendo
 
     ```bash
-      docker ps
+    docker ps
     ```
 
 8. Ver logs si querés monitorear
 
     ```bash
-      docker logs -f proy_final_container
+    docker logs -f proy_final_container
     ```  
 
 9. Acceder desde Postman en  [http://localhost:3000](http://localhost:3000)  
@@ -67,7 +67,7 @@ Cada log se imprime en consola (modo desarrollo) o en archivos (modo producción
 
 ### 🧪 2. Tests funcionales con Supertest + Chai
 
-Se desarrolló un archivo de test `adoption.test.js` para validar la API de adopciones usando:
+Se desarrolló un archivo de test `adoption.test.js` para ejecutarse con el comando ```bash npm test``` y validar la API de adopciones usando:
 
 - **MongoMemoryServer:** Base de datos en memoria para pruebas aisladas.
 
@@ -161,6 +161,12 @@ Ambos devuelven los registros desde la base real (MongoDB Atlas), verificables t
 - MongoDB Compass
 
 - Arquitectura con DAOs, Repositories, DTOs y Controllers
+
+- Winston
+
+- Mocha, Chai, Supertest
+  
+- Docker
 
 ## 🧪 Cómo probar localmente?
 
