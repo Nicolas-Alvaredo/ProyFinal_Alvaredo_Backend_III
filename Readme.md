@@ -89,11 +89,25 @@ Los tests cubren:
 
 Estos tests ayudan a garantizar la estabilidad y robustez de los endpoints críticos.
 
-### 🔹 3. Router `/api/mocks`
+### 📚 3. Documentación con Swagger
+
+Se implementó documentación automática de la API utilizando **Swagger** mediante los paquetes `swagger-jsdoc` y `swagger-ui-express`.
+
+🔧 La configuración se encuentra en el módulo `swaggerSetup.js`, que expone toda la documentación en formato OpenAPI.
+
+📂 Los comentarios `@swagger` están integrados dentro de los archivos de rutas bajo la carpeta `src/docs`.
+
+🌐 Podés acceder a la documentación desde el navegador:
+
+```bash
+[http://localhost:3000/api/docs](http://localhost:3000/api/docs)
+```
+
+### 🔹 4. Router `/api/mocks`
 
 Se creó un router específico llamado `mocks.router.js` que maneja rutas bajo la base `/api/mocks`.
 
-### 🔹 4. Endpoint GET `/mockingpets`
+### 🔹 5. Endpoint GET `/mockingpets`
 
 Se desarrolló un módulo de mocking (`petMocks.js`) que genera mascotas falsas utilizando la biblioteca `@faker-js/faker`. El endpoint devuelve un array JSON con 50 mascotas ficticias.
 
@@ -107,7 +121,7 @@ Cada mascota generada contiene:
 - `adopted`
 - `image`
 
-### 🔹 5. Endpoint GET `/mockingusers`
+### 🔹 6. Endpoint GET `/mockingusers`
 
 Se creó un módulo (`userMocker.js`) que genera usuarios falsos con las siguientes características:
 
@@ -119,7 +133,7 @@ Se creó un módulo (`userMocker.js`) que genera usuarios falsos con las siguien
 
 Devuelve 50 usuarios en formato similar a una respuesta Mongo, con `_id`, `email`, `password`, etc.
 
-### 🔹 6. Endpoint POST `/generateData`
+### 🔹 7. Endpoint POST `/generateData`
 
 Se desarrolló un endpoint para insertar datos en la base de datos a partir de parámetros numéricos.
 
@@ -142,7 +156,7 @@ Este endpoint:
 
 - Cada mascota es asignada aleatoriamente a un usuario como owner
 
-### 🔹 7. Verificación de inserción de datos
+### 🔹 8. Verificación de inserción de datos
 
 Se utilizaron los endpoints existentes para comprobar que los datos generados fueron insertados correctamente en la base de datos MongoDB:
 
