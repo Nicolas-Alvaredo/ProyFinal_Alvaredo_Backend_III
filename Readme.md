@@ -164,6 +164,60 @@ Se utilizaron los endpoints existentes para comprobar que los datos generados fu
 
 Ambos devuelven los registros desde la base real (MongoDB Atlas), verificables también vía Compass.
 
+### 🔹 9. Rutas disponibles y funcionalidades del sistema
+
+La aplicación cuenta con las siguientes rutas organizadas por módulos, cada uno con responsabilidades claras y controladores separados:
+
+🔐 `/api/sessions`
+Manejo de autenticación de usuarios, tanto protegida (con JWT) como sin protección (modo test):
+
+- `POST /register`: Registrar nuevo usuario
+
+- `POST /login`: Login protegido con credenciales
+
+- `GET /current`: Obtener usuario autenticado actual
+
+- `GET /logout`: Cerrar sesión actual
+
+- `POST /unprotectedLogin`: Login sin protección para pruebas
+
+- `GET /unprotectedCurrent`: Obtener usuario actual sin validación
+
+- `GET /unprotectedLogout`: Cierre de sesión sin validación
+
+👤 `/api/users`
+Gestión completa de usuarios:
+
+- `GET /`: Listar todos los usuarios
+
+- `GET /:uid`: Obtener un usuario por ID
+
+- `PUT /:uid`: Actualizar un usuario
+
+- `DELETE /:uid`: Eliminar un usuario
+
+🐾 `/api/pets`
+Gestión de mascotas con opción de carga de imágenes:
+
+- `GET /`: Listar todas las mascotas
+
+- `POST /`: Crear nueva mascota (sin imagen)
+
+- `POST /withimage`: Crear mascota con imagen (form-data)
+
+- `PUT /:pid`: Actualizar mascota por ID
+
+- `DELETE /:pid`: Eliminar mascota
+
+💌 /api/adoptions
+Módulo de adopciones de mascotas:
+
+- `GET /`: Listar todas las adopciones
+
+- `GET /:aid`: Obtener una adopción por ID
+
+- `POST /:uid/:pid`: Registrar una adopción entre un usuario y una mascota
+
 ## 🛠️ Tecnologías utilizadas
 
 - Node.js + Express
