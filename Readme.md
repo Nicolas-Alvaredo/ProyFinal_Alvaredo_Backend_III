@@ -209,7 +209,7 @@ Gestión de mascotas con opción de carga de imágenes:
 
 - `DELETE /:pid`: Eliminar mascota
 
-💌 /api/adoptions
+💌 `/api/adoptions`
 Módulo de adopciones de mascotas:
 
 - `GET /`: Listar todas las adopciones
