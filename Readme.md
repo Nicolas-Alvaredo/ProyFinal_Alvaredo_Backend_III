@@ -99,9 +99,7 @@ Se implementó documentación automática de la API utilizando **Swagger** media
 
 🌐 Podés acceder a la documentación desde el navegador:
 
-```bash
 [http://localhost:3000/api/docs](http://localhost:3000/api/docs)
-```
 
 ### 🔹 4. Router `/api/mocks`
 
