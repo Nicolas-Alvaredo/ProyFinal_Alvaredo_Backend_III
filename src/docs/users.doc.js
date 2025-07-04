@@ -88,7 +88,10 @@
  *     responses:
  *       200:
  *         description: Usuario eliminado
+ *       404:
+ *         description: Usuario no encontrado
  */
+
 
 /**
  * @swagger

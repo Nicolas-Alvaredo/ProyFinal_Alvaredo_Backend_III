@@ -49,6 +49,13 @@ const updateUser = async (req, res) => {
 const deleteUser = async (req, res) => {
   try {
     const userId = req.params.uid;
+
+    const existingUser = await usersService.getUserById(userId);
+    if (!existingUser) {
+      req.logger.warning(`User not found: ${userId}`);
+      return res.status(404).send({ status: "error", message: "User not found" });
+    }
+
     await usersService.delete(userId);
     req.logger.info(`User deleted: ${userId}`);
     res.send({ status: "success", message: "User deleted" });
