@@ -1,0 +1,7 @@
+node_modules
+.env
+*.log
+logs/
+combined.log
+errors.log
+UsersnicoaAppDataRoamingnpm-cache/
